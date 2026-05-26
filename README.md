@@ -65,7 +65,7 @@ Recovered Web Server
 
 Ubuntu EC2 instance deployed with Apache web server.
 
-![Primary Server](screenshots/01-primary-server-running.png)
+![Primary Server](screenshots/01-primary-server-running.png.png)
 
 ---
 
@@ -73,7 +73,7 @@ Ubuntu EC2 instance deployed with Apache web server.
 
 EBS snapshot and AMI backup created for disaster recovery.
 
-![Snapshot Created](screenshots/02-snapshot-created.png)
+![Snapshot Created](screenshots/02-snapshot-created.png.png)
 
 ---
 
@@ -81,7 +81,7 @@ EBS snapshot and AMI backup created for disaster recovery.
 
 Backup copied to another AWS region for geographic redundancy.
 
-![Cross Region Copy](screenshots/03-copy-snapshot-cross-region.png)
+![Cross Region Copy](screenshots/03-copy-snapshot-cross-region.png.png)
 
 ---
 
@@ -89,7 +89,7 @@ Backup copied to another AWS region for geographic redundancy.
 
 Primary server intentionally stopped to simulate infrastructure failure.
 
-![Primary Failure](screenshots/04-primary-server-stopped.png)
+![Primary Failure](screenshots/04-primary-server-stopped.png.png)
 
 ---
 
@@ -97,7 +97,7 @@ Primary server intentionally stopped to simulate infrastructure failure.
 
 AWS Lambda function automatically triggered recovery workflow.
 
-![Lambda Success](screenshots/05-lambda-function-success.png)
+![Lambda Success](screenshots/05-lambda-function-success.png.png)
 
 ---
 
@@ -105,7 +105,7 @@ AWS Lambda function automatically triggered recovery workflow.
 
 Recovery EC2 instance launched automatically from backup AMI.
 
-![Recovery Instance](screenshots/06-recovery-server-created.png)
+![Recovery Instance](screenshots/06-recovery-server-created.png.png)
 
 ---
 
@@ -113,7 +113,7 @@ Recovery EC2 instance launched automatically from backup AMI.
 
 Recovery server became operational after automated failover.
 
-![Recovery Running](screenshots/07-recovery-server-running.png)
+![Recovery Running](screenshots/07-recovery-server-running.png.png)
 
 ---
 
@@ -121,7 +121,7 @@ Recovery server became operational after automated failover.
 
 Recovered web application became accessible successfully.
 
-![Recovered Website](screenshots/08-recovery-webpage.png)
+![Recovered Website](screenshots/08-recovery-webpage.png.png)
 
 ---
 
