@@ -6,13 +6,13 @@ from datetime import datetime
 # CONFIGURATION
 # ==========================
 
-SNS_TOPIC_ARN = "arn:aws:sns:eu-north-1:020513638322:DR-Notifications"
+SNS_TOPIC_ARN = "YOUR_AWS_ARN"
 
 PRIMARY = {
     "region": "eu-north-1",
-    "ami": "ami-042be8759132097a1",
+    "ami": "AMI_ID",
     "subnet": "PRIMARY_SUBNET_ID",
-    "security_group": "sg-0378df273cc0c3f7b",
+    "security_group": "SECURITY_GROUP_ID",
     "key_pair": "dr-keypair",
     "name": "Recovered-Server-Primary"
 }
